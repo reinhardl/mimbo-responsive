@@ -1,0 +1,4 @@
+Name: Mimbo Responsive (2013-10-26)
+Author: Darren Hoyt, ported to s9y 
+Date: 2013-10-26
+Require Serendipity: 2.x
