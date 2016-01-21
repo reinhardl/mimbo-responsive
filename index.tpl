@@ -115,12 +115,11 @@
 				<div class="row">
 					<!-- start page displaying three different areas -->
 					<div class="col-md-6">
-						Ebene s1 
 						{serendipity_fetchPrintEntries category=$template_option.catfeat full=true fetchDrafts=false noSticky=true limit="0,3" template="entries_lcol.tpl"}
 					</div>
 			
 					<div class="col-md-6">
-						Ebene s2 
+						
 						{serendipity_fetchPrintEntries category=$template_option.catx1 full=true fetchDrafts=false noSticky=true limit="0,1" template="entries_rcol.tpl"}
 						{serendipity_fetchPrintEntries category=$template_option.catx2 full=true fetchDrafts=false noSticky=true limit="0,1" template="entries_rcol.tpl"}
 						{serendipity_fetchPrintEntries category=$template_option.catx3 full=true fetchDrafts=false noSticky=true limit="0,1" template="entries_rcol.tpl"}
@@ -140,7 +139,7 @@
 			
   </div>
    <div class="col-md-4">
-    Ebene sb 
+     
 	{if $leftSidebarElements > 0}
 				{serendipity_printSidebar side="left"}
 	{/if}
