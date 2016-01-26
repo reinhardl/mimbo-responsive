@@ -15,7 +15,7 @@
 		
 			{if $entry.properties.ep_MimboImage != ''}
 				<div class="jumbotron feature-jumbotron ">
-					<a href="{$entry.link}" rel="bookmark" title="Permanent link: {$entry.title}"><img class="img-responsive fullwidth"   src="{$entry.properties.ep_MimboImage}" alt="{$entry.properties.ep_MimboImageAlt}" /></a><br/><a class="title" href="{$entry.link}" rel="bookmark">&nbsp;{$entry.title|@default:$entry.id}&raquo;</a>
+					<a href="{$entry.link}" rel="bookmark" title="Permanent link: {$entry.title}"><img class="img-responsive fullwidth"   src="{$entry.properties.ep_MimboImage}" alt="{$entry.properties.ep_MimboImageAlt}" /></a><br/><a class="title" href="{$entry.link}" rel="bookmark">&nbsp;<strong>{$entry.title|@default:$entry.id}&raquo;<strong></a>
 				</div>	 
 			{/if}
 	</div>  
